@@ -64,7 +64,7 @@ Refer to [ADI's official repository](https://github.com/analogdevicesinc/hdl) to
 
 * Edit `PYNQ/sdbuild/Makefile`.
 
-  <img src="img/Makefile.png" style="zoom: 80%;" />
+  <img src="img/Makefile.png" />
 
   In line 127, change `CONFIG_USER_LAYER_0` to `CONFIG_USER_LAYER_2`. (We edit this because by default it will add the meta-pynq layer to user layer 0, which will overwrite the meta-adi-core layer we added before.)
 
