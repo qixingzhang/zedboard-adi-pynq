@@ -77,7 +77,8 @@ Refer to [ADI's official repository](https://github.com/analogdevicesinc/hdl) to
   BSP_ZedBoard-ADI := ZedBoard-ADI.bsp
   BITSTREAM_ZedBoard-ADI := system_top.bit
   STAGE4_PACKAGES_ZedBoard-ADI := pynq ethernet jupyter
-
+  ```
+  
   make sure the name of bsp and bitstream is correct.
 
 * Prepare prebuilt image
